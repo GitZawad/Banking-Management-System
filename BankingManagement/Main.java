@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         String URl = "jdbc:mysql://localhost:3306/banking_system";
-        String username = "root";
-        String password = "1234";
+        String username = "your database username";
+        String password = "your database password";
 
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
